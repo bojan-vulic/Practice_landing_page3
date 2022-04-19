@@ -1,0 +1,10 @@
+/**************************
+mixins
+**************************/
+@mixin flex($justify: space-between, $items: center, $d: row) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    align-items: $items;
+    flex-direction: $d;
+}

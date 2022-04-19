@@ -1,0 +1,209 @@
+[30-Nov-2021 13:38:45 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php on line 2056
+[30-Nov-2021 13:38:45 UTC] PHP Stack trace:
+[30-Nov-2021 13:38:45 UTC] PHP   1. {main}() C:\Program Files\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[30-Nov-2021 13:38:45 UTC] PHP   2. include() C:\Program Files\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[30-Nov-2021 13:38:46 UTC] PHP   3. include() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Nov-2021 13:38:46 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Nov-2021 13:38:46 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[30-Nov-2021 13:38:46 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Nov-2021 13:38:46 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php on line 2056
+[30-Nov-2021 13:38:46 UTC] PHP Stack trace:
+[30-Nov-2021 13:38:46 UTC] PHP   1. {main}() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-cron.php:0
+[30-Nov-2021 13:38:46 UTC] PHP   2. wp_reschedule_event() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-cron.php:124
+[30-Nov-2021 13:38:46 UTC] PHP   3. wp_schedule_event() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\cron.php:438
+[30-Nov-2021 13:38:46 UTC] PHP   4. _set_cron_array() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\cron.php:312
+[30-Nov-2021 13:38:46 UTC] PHP   5. update_option() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\cron.php:1192
+[30-Nov-2021 13:38:46 UTC] PHP   6. wpdb->update() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\option.php:487
+[30-Nov-2021 13:38:46 UTC] PHP   7. wpdb->process_fields() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2323
+[30-Nov-2021 13:38:46 UTC] PHP   8. wpdb->process_field_charsets() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2442
+[30-Nov-2021 13:38:46 UTC] PHP   9. wpdb->get_col_charset() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2515
+[30-Nov-2021 13:38:46 UTC] PHP  10. wpdb->get_table_charset() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2877
+[30-Nov-2021 13:38:46 UTC] PHP  11. wpdb->get_results() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2774
+[30-Nov-2021 13:38:46 UTC] PHP  12. wpdb->query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2695
+[30-Nov-2021 13:38:46 UTC] PHP  13. wpdb->_do_query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:1945
+[30-Nov-2021 13:38:46 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1194
+[30-Nov-2021 13:38:46 UTC] PHP  14. mysqli_query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2056
+[30-Nov-2021 13:38:46 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:422
+[30-Nov-2021 13:38:46 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:399
+[30-Nov-2021 13:38:46 UTC] PHP  10. call_user_func:{phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[30-Nov-2021 13:38:46 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[30-Nov-2021 13:38:46 UTC] PHP  12. call_user_func:{phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[30-Nov-2021 13:38:46 UTC] PHP  13. User_Command->list_() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[30-Nov-2021 13:38:46 UTC] PHP  14. get_users() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php:165
+[30-Nov-2021 13:38:46 UTC] PHP  15. WP_User_Query->__construct() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\user.php:763
+[30-Nov-2021 13:38:46 UTC] PHP  16. WP_User_Query->query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\class-wp-user-query.php:78
+[30-Nov-2021 13:38:46 UTC] PHP  17. wpdb->get_col() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\class-wp-user-query.php:619
+[30-Nov-2021 13:38:46 UTC] PHP  18. wpdb->query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2657
+[30-Nov-2021 13:38:46 UTC] PHP  19. wpdb->_do_query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:1945
+[30-Nov-2021 13:38:46 UTC] PHP  20. mysqli_query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2056
+[30-Nov-2021 13:38:46 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php on line 2056
+[30-Nov-2021 13:38:46 UTC] PHP Stack trace:
+[30-Nov-2021 13:38:46 UTC] PHP   1. {main}() C:\Program Files\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[30-Nov-2021 13:38:46 UTC] PHP   2. include() C:\Program Files\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[30-Nov-2021 13:38:46 UTC] PHP   3. include() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Nov-2021 13:38:46 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Nov-2021 13:38:46 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[30-Nov-2021 13:38:46 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Nov-2021 13:38:46 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1194
+[30-Nov-2021 13:38:46 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:422
+[30-Nov-2021 13:38:46 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:399
+[30-Nov-2021 13:38:46 UTC] PHP  10. call_user_func:{phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[30-Nov-2021 13:38:46 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[30-Nov-2021 13:38:46 UTC] PHP  12. call_user_func:{phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[30-Nov-2021 13:38:46 UTC] PHP  13. User_Command->list_() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[30-Nov-2021 13:38:46 UTC] PHP  14. get_users() phar://C:/Program Files/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/entity-command/src/User_Command.php:165
+[30-Nov-2021 13:38:46 UTC] PHP  15. WP_User_Query->__construct() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\user.php:763
+[30-Nov-2021 13:38:46 UTC] PHP  16. WP_User_Query->query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\class-wp-user-query.php:78
+[30-Nov-2021 13:38:46 UTC] PHP  17. wpdb->get_col() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\class-wp-user-query.php:619
+[30-Nov-2021 13:38:46 UTC] PHP  18. wpdb->query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2657
+[30-Nov-2021 13:38:46 UTC] PHP  19. wpdb->_do_query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:1945
+[30-Nov-2021 13:38:46 UTC] PHP  20. mysqli_query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2056
+[30-Nov-2021 13:38:46 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php on line 2056
+[30-Nov-2021 13:38:46 UTC] PHP Stack trace:
+[30-Nov-2021 13:38:46 UTC] PHP   1. {main}() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-cron.php:0
+[30-Nov-2021 13:38:46 UTC] PHP   2. wp_reschedule_event() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-cron.php:124
+[30-Nov-2021 13:38:46 UTC] PHP   3. wp_schedule_event() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\cron.php:438
+[30-Nov-2021 13:38:46 UTC] PHP   4. _set_cron_array() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\cron.php:312
+[30-Nov-2021 13:38:46 UTC] PHP   5. update_option() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\cron.php:1192
+[30-Nov-2021 13:38:46 UTC] PHP   6. wpdb->update() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\option.php:487
+[30-Nov-2021 13:38:46 UTC] PHP   7. wpdb->process_fields() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2323
+[30-Nov-2021 13:38:46 UTC] PHP   8. wpdb->process_field_charsets() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2442
+[30-Nov-2021 13:38:46 UTC] PHP   9. wpdb->get_col_charset() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2515
+[30-Nov-2021 13:38:46 UTC] PHP  10. wpdb->get_table_charset() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2877
+[30-Nov-2021 13:38:46 UTC] PHP  11. wpdb->get_results() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2774
+[30-Nov-2021 13:38:46 UTC] PHP  12. wpdb->query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2695
+[30-Nov-2021 13:38:46 UTC] PHP  13. wpdb->_do_query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:1945
+[30-Nov-2021 13:38:46 UTC] PHP  14. mysqli_query() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-includes\wp-db.php:2056
+[30-Nov-2021 17:06:52 UTC] PHP Fatal error:  Cannot redeclare wdm_mm_toggle_scripts() (previously declared in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\functions.php:47) in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\functions.php on line 55
+[30-Nov-2021 17:06:52 UTC] PHP Stack trace:
+[30-Nov-2021 17:06:52 UTC] PHP   1. {main}() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-admin\admin-ajax.php:0
+[30-Nov-2021 17:06:52 UTC] PHP   2. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-admin\admin-ajax.php:22
+[30-Nov-2021 17:06:52 UTC] PHP   3. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-load.php:50
+[30-Nov-2021 17:06:52 UTC] PHP   4. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-config.php:77
+[30-Nov-2021 17:07:58 UTC] PHP Fatal error:  Cannot redeclare wdm_mm_toggle_scripts() (previously declared in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\functions.php:47) in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\functions.php on line 55
+[30-Nov-2021 17:07:58 UTC] PHP Stack trace:
+[30-Nov-2021 17:07:58 UTC] PHP   1. {main}() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-admin\admin-ajax.php:0
+[30-Nov-2021 17:07:58 UTC] PHP   2. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-admin\admin-ajax.php:22
+[30-Nov-2021 17:07:58 UTC] PHP   3. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-load.php:50
+[30-Nov-2021 17:07:58 UTC] PHP   4. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-config.php:77
+[30-Nov-2021 17:08:00 UTC] PHP Fatal error:  Cannot redeclare wdm_mm_toggle_scripts() (previously declared in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\functions.php:47) in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\functions.php on line 55
+[30-Nov-2021 17:08:00 UTC] PHP Stack trace:
+[30-Nov-2021 17:08:00 UTC] PHP   1. {main}() C:\Users\korisnik\Local Sites\mairalatheme\app\public\index.php:0
+[30-Nov-2021 17:08:00 UTC] PHP   2. require() C:\Users\korisnik\Local Sites\mairalatheme\app\public\index.php:17
+[30-Nov-2021 17:08:00 UTC] PHP   3. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-blog-header.php:13
+[30-Nov-2021 17:08:00 UTC] PHP   4. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-load.php:50
+[30-Nov-2021 17:08:00 UTC] PHP   5. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-config.php:77
+[30-Nov-2021 17:09:59 UTC] PHP Fatal error:  Cannot redeclare wdm_mm_toggle_scripts() (previously declared in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\functions.php:47) in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\functions.php on line 55
+[30-Nov-2021 17:09:59 UTC] PHP Stack trace:
+[30-Nov-2021 17:09:59 UTC] PHP   1. {main}() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-admin\admin-ajax.php:0
+[30-Nov-2021 17:09:59 UTC] PHP   2. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-admin\admin-ajax.php:22
+[30-Nov-2021 17:09:59 UTC] PHP   3. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-load.php:50
+[30-Nov-2021 17:09:59 UTC] PHP   4. require_once() C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-config.php:77
+[02-Dec-2021 13:29:31 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\korisnik\Local Sites\mairalatheme\app\public\wp-content\themes\Corporate-Agency-Mairala\front-page.php on line 309
+[20-Dec-2021 11:47:44 UTC] PHP Warning:  Error while sending QUERY packet. PID=28203 in /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php on line 2056
+[20-Dec-2021 11:47:44 UTC] PHP Stack trace:
+[20-Dec-2021 11:47:44 UTC] PHP   1. {main}() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/admin-ajax.php:0
+[20-Dec-2021 11:47:44 UTC] PHP   2. do_action() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/admin-ajax.php:187
+[20-Dec-2021 11:47:44 UTC] PHP   3. WP_Hook->do_action() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/plugin.php:470
+[20-Dec-2021 11:47:44 UTC] PHP   4. WP_Hook->apply_filters() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php:327
+[20-Dec-2021 11:47:44 UTC] PHP   5. wp_ajax_dashboard_widgets() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php:303
+[20-Dec-2021 11:47:44 UTC] PHP   6. wp_dashboard_primary() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/includes/ajax-actions.php:399
+[20-Dec-2021 11:47:44 UTC] PHP   7. wp_dashboard_cached_rss_widget() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/includes/dashboard.php:1568
+[20-Dec-2021 11:47:44 UTC] PHP   8. wp_dashboard_primary_output() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/includes/dashboard.php:1171
+[20-Dec-2021 11:47:44 UTC] PHP   9. wp_widget_rss_output() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/includes/dashboard.php:1584
+[20-Dec-2021 11:47:44 UTC] PHP  10. fetch_feed() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/widgets.php:1527
+[20-Dec-2021 11:47:44 UTC] PHP  11. SimplePie->init() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/feed.php:829
+[20-Dec-2021 11:47:44 UTC] PHP  12. WP_Feed_Cache_Transient->save() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-simplepie.php:1508
+[20-Dec-2021 11:47:44 UTC] PHP  13. set_transient() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-feed-cache-transient.php:82
+[20-Dec-2021 11:47:44 UTC] PHP  14. get_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:927
+[20-Dec-2021 11:47:44 UTC] PHP  15. wpdb->get_row() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:171
+[20-Dec-2021 11:47:44 UTC] PHP  16. wpdb->query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2615
+[20-Dec-2021 11:47:44 UTC] PHP  17. wpdb->_do_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:1945
+[20-Dec-2021 11:47:44 UTC] PHP  18. mysqli_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2056
+[19-Apr-2022 10:55:50 UTC] PHP Warning:  Error while sending QUERY packet. PID=7811 in /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php on line 2162
+[19-Apr-2022 10:55:50 UTC] PHP Stack trace:
+[19-Apr-2022 10:55:50 UTC] PHP   1. {main}() /home/ivana/Local Sites/mairalatheme/app/public/wp-cron.php:0
+[19-Apr-2022 10:55:50 UTC] PHP   2. require_once() /home/ivana/Local Sites/mairalatheme/app/public/wp-cron.php:44
+[19-Apr-2022 10:55:50 UTC] PHP   3. require_once() /home/ivana/Local Sites/mairalatheme/app/public/wp-load.php:50
+[19-Apr-2022 10:55:50 UTC] PHP   4. require_once() /home/ivana/Local Sites/mairalatheme/app/public/wp-config.php:77
+[19-Apr-2022 10:55:50 UTC] PHP   5. do_action() /home/ivana/Local Sites/mairalatheme/app/public/wp-settings.php:587
+[19-Apr-2022 10:55:50 UTC] PHP   6. WP_Hook->do_action() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/plugin.php:474
+[19-Apr-2022 10:55:50 UTC] PHP   7. WP_Hook->apply_filters() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php:331
+[19-Apr-2022 10:55:50 UTC] PHP   8. cptui_create_custom_taxonomies() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php:307
+[19-Apr-2022 10:55:50 UTC] PHP   9. get_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-content/plugins/custom-post-type-ui/custom-post-type-ui.php:547
+[19-Apr-2022 10:55:50 UTC] PHP  10. wpdb->get_row() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:174
+[19-Apr-2022 10:55:50 UTC] PHP  11. wpdb->query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2749
+[19-Apr-2022 10:55:50 UTC] PHP  12. wpdb->_do_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2051
+[19-Apr-2022 10:55:50 UTC] PHP  13. mysqli_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2162
+[19-Apr-2022 10:55:50 UTC] PHP Warning:  Error while sending QUERY packet. PID=8039 in /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php on line 2162
+[19-Apr-2022 10:55:50 UTC] PHP Stack trace:
+[19-Apr-2022 10:55:50 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[19-Apr-2022 10:55:50 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[19-Apr-2022 10:55:50 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Apr-2022 10:55:50 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Apr-2022 10:55:50 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[19-Apr-2022 10:55:50 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Apr-2022 10:55:50 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1194
+[19-Apr-2022 10:55:50 UTC] PHP   8. WP_CLI\Runner->run_command() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:422
+[19-Apr-2022 10:55:50 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:399
+[19-Apr-2022 10:55:50 UTC] PHP  10. call_user_func:{phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491}() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[19-Apr-2022 10:55:50 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:97-104}() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:491
+[19-Apr-2022 10:55:50 UTC] PHP  12. call_user_func:{phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100}() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[19-Apr-2022 10:55:50 UTC] PHP  13. Core_Command->check_update() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:100
+[19-Apr-2022 10:55:50 UTC] PHP  14. Core_Command->get_updates() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:78
+[19-Apr-2022 10:55:50 UTC] PHP  15. wp_version_check() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1291
+[19-Apr-2022 10:55:50 UTC] PHP  16. set_site_transient() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/update.php:74
+[19-Apr-2022 10:55:50 UTC] PHP  17. add_site_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:2016
+[19-Apr-2022 10:55:50 UTC] PHP  18. add_network_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:1322
+[19-Apr-2022 10:55:50 UTC] PHP  19. add_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:1539
+[19-Apr-2022 10:55:50 UTC] PHP  20. wpdb->query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:637
+[19-Apr-2022 10:55:50 UTC] PHP  21. wpdb->_do_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2051
+[19-Apr-2022 10:55:50 UTC] PHP  22. mysqli_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2162
+[19-Apr-2022 10:55:50 UTC] PHP Warning:  Error while sending QUERY packet. PID=8046 in /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php on line 2162
+[19-Apr-2022 10:55:50 UTC] PHP Stack trace:
+[19-Apr-2022 10:55:50 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[19-Apr-2022 10:55:50 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[19-Apr-2022 10:55:50 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[19-Apr-2022 10:55:50 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[19-Apr-2022 10:55:50 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[19-Apr-2022 10:55:50 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[19-Apr-2022 10:55:50 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[19-Apr-2022 10:55:50 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[19-Apr-2022 10:55:50 UTC] PHP   9. wp_cookie_constants() /home/ivana/Local Sites/mairalatheme/app/public/wp-settings.php:392
+[19-Apr-2022 10:55:50 UTC] PHP  10. get_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/default-constants.php:284
+[19-Apr-2022 10:55:50 UTC] PHP  11. wpdb->get_row() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:195
+[19-Apr-2022 10:55:50 UTC] PHP  12. wpdb->query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2749
+[19-Apr-2022 10:55:50 UTC] PHP  13. wpdb->_do_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2051
+[19-Apr-2022 10:55:50 UTC] PHP  14. mysqli_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2162
+[19-Apr-2022 10:55:50 UTC] PHP Warning:  Error while sending QUERY packet. PID=7812 in /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php on line 2056
+[19-Apr-2022 10:55:50 UTC] PHP Stack trace:
+[19-Apr-2022 10:55:50 UTC] PHP   1. {main}() /home/ivana/Local Sites/mairalatheme/app/public/wp-cron.php:0
+[19-Apr-2022 10:55:50 UTC] PHP   2. do_action_ref_array() /home/ivana/Local Sites/mairalatheme/app/public/wp-cron.php:138
+[19-Apr-2022 10:55:50 UTC] PHP   3. WP_Hook->do_action() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/plugin.php:518
+[19-Apr-2022 10:55:50 UTC] PHP   4. WP_Hook->apply_filters() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php:327
+[19-Apr-2022 10:55:50 UTC] PHP   5. wp_version_check() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php:303
+[19-Apr-2022 10:55:50 UTC] PHP   6. do_action() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/update.php:256
+[19-Apr-2022 10:55:50 UTC] PHP   7. WP_Hook->do_action() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/plugin.php:470
+[19-Apr-2022 10:55:50 UTC] PHP   8. WP_Hook->apply_filters() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php:327
+[19-Apr-2022 10:55:50 UTC] PHP   9. wp_maybe_auto_update() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php:303
+[19-Apr-2022 10:55:50 UTC] PHP  10. WP_Automatic_Updater->run() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/update.php:729
+[19-Apr-2022 10:55:50 UTC] PHP  11. WP_Automatic_Updater->update() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/includes/class-wp-automatic-updater.php:490
+[19-Apr-2022 10:55:50 UTC] PHP  12. Core_Upgrader->upgrade() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/includes/class-wp-automatic-updater.php:402
+[19-Apr-2022 10:55:50 UTC] PHP  13. update_core() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/includes/class-core-upgrader.php:172
+[19-Apr-2022 10:55:50 UTC] PHP  14. delete_site_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-admin/includes/update-core.php:1454
+[19-Apr-2022 10:55:50 UTC] PHP  15. delete_network_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:1325
+[19-Apr-2022 10:55:50 UTC] PHP  16. delete_option() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:1645
+[19-Apr-2022 10:55:50 UTC] PHP  17. wpdb->get_row() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php:698
+[19-Apr-2022 10:55:50 UTC] PHP  18. wpdb->query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2615
+[19-Apr-2022 10:55:50 UTC] PHP  19. wpdb->_do_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:1945
+[19-Apr-2022 10:55:50 UTC] PHP  20. mysqli_query() /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php:2056
+[19-Apr-2022 10:58:00 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/plugin.php:256
+Stack trace:
+#0 /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php(2133): has_filter('query', Array)
+#1 /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php(2165): wpdb->placeholder_escape()
+#2 /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/class-wp-hook.php(303): wpdb->remove_placeholder_escape('SELECT option_n...')
+#3 /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/plugin.php(189): WP_Hook->apply_filters('SELECT option_n...', Array)
+#4 /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php(1916): apply_filters('query', 'SELECT option_n...')
+#5 /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/wp-db.php(2695): wpdb->query('SELECT option_n...')
+#6 /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/option.php(284): wpdb->get_results('SELECT option_n...')
+#7 /home/iva in /home/ivana/Local Sites/mairalatheme/app/public/wp-includes/plugin.php on line 256

@@ -1,0 +1,15 @@
+[20-Dec-2021 12:44:38] NOTICE: fpm is running, pid 28193
+[20-Dec-2021 12:44:38] NOTICE: ready to handle connections
+[20-Dec-2021 14:41:04] ERROR: Another FPM instance seems to already listen on /home/ivana/.config/Local/run/evqSWLbNn/php/php-fpm.socket
+[20-Dec-2021 14:41:04] ERROR: FPM initialization failed
+[20-Dec-2021 14:41:04] ERROR: Another FPM instance seems to already listen on /home/ivana/.config/Local/run/evqSWLbNn/php/php-fpm.socket
+[20-Dec-2021 14:41:04] ERROR: FPM initialization failed
+[20-Dec-2021 14:41:05] ERROR: Another FPM instance seems to already listen on /home/ivana/.config/Local/run/evqSWLbNn/php/php-fpm.socket
+[20-Dec-2021 14:41:05] ERROR: FPM initialization failed
+[20-Dec-2021 14:41:05] ERROR: Another FPM instance seems to already listen on /home/ivana/.config/Local/run/evqSWLbNn/php/php-fpm.socket
+[20-Dec-2021 14:41:05] ERROR: FPM initialization failed
+[23-Dec-2021 21:41:49] NOTICE: fpm is running, pid 16816
+[23-Dec-2021 21:41:49] NOTICE: ready to handle connections
+[23-Dec-2021 22:32:08] NOTICE: Terminating ...
+[19-Apr-2022 12:54:22] NOTICE: fpm is running, pid 7806
+[19-Apr-2022 12:54:22] NOTICE: ready to handle connections
